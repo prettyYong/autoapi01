@@ -1,24 +1,18 @@
 package com.tester.cases;
 
 import com.tester.config.TestConfig;
-import com.tester.modle.LoginCase;
-import com.tester.utils.DatabaseUtil;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.methods.HttpGet;
-import org.apache.http.client.methods.HttpPost;
-import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.util.EntityUtils;
-import org.apache.ibatis.session.LocalCacheScope;
-import org.apache.ibatis.session.SqlSession;
-import org.json.JSONObject;
 import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
+
 ////ce shi hh
-public class LoginTest {
+public class LoginTestfdf {
     @BeforeTest(groups = "loginTrue", description = "测试准备工作,获取HttpClient对象")
     public void beforeTest() {
         String basePath = "http://localhost:8089/dev/";
